@@ -15,5 +15,7 @@
 #### Screenshots (small screens)
 
 ![](screenshots/home_small.png)
+
 ![](screenshots/experience_small.png)
+
 ![](screenshots/education_small.png)
