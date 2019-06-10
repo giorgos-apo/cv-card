@@ -1,0 +1,275 @@
+body {
+  background-color: #5b5f97;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+body .container {
+  background: #fffffb;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px #2d2d2d;
+          box-shadow: 5px 5px 10px #2d2d2d;
+}
+
+@media (max-width: 1024px) {
+  body .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  body .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body .container a {
+  /* General link styling */
+  font-weight: 700;
+  color: #5b5f97;
+  text-decoration: none;
+}
+
+body .container a:hover {
+  color: rgba(91, 95, 151, 0.7);
+}
+
+body .container .sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+  border-right: 5px solid rgba(90, 90, 90, 0.2);
+}
+
+@media (max-width: 1024px) {
+  body .container .sidebar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  body .container .sidebar {
+    border-bottom: 5px solid rgba(90, 90, 90, 0.2);
+    border-right: none;
+    margin-bottom: 1em;
+  }
+}
+
+body .container .sidebar .profile-pic {
+  width: 185px;
+}
+
+@media (max-width: 1024px) {
+  body .container .sidebar .profile-pic {
+    width: 148px;
+  }
+}
+
+body .container .sidebar .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+}
+
+@media (max-width: 1024px) {
+  body .container .sidebar .social {
+    margin-top: 2rem;
+  }
+}
+
+body .container .sidebar .social a img {
+  margin: 0 .5rem;
+  width: 40px;
+}
+
+@media (max-width: 1024px) {
+  body .container .sidebar .social a img {
+    margin: 1rem .5rem 2rem .5rem;
+  }
+}
+
+body .container .main {
+  color: #737d8c;
+  width: 65%;
+  /* ABOUT (INDEX PAGE) */
+  /* EXPERIENCE PAGE & EDUCATION PAGE (COMMON CSS) */
+  /* EDUCATION PAGE */
+}
+
+@media (max-width: 1024px) {
+  body .container .main {
+    width: 100%;
+  }
+}
+
+body .container .main nav {
+  text-align: right;
+  font-family: "PLay", sans-serif;
+}
+
+@media (max-width: 1024px) {
+  body .container .main nav {
+    text-align: center;
+  }
+}
+
+body .container .main nav a {
+  font-variant: small-caps;
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+body .container .main .about {
+  padding: 1rem 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  body .container .main .about {
+    padding: 1rem .2rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 601px) {
+  body .container .main .about {
+    padding: 2rem .5rem;
+  }
+}
+
+body .container .main .about .name {
+  font-family: "PLay", sans-serif;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+
+body .container .main .about .name span {
+  color: #ff4b4b;
+}
+
+body .container .main .about .contact {
+  color: rgba(255, 75, 75, 0.7);
+  font-family: "PLay", sans-serif;
+  font-variant: small-caps;
+}
+
+body .container .main .about .intro {
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  body .container .main .about .intro {
+    text-align: left;
+  }
+}
+
+body .container .main .experience, body .container .main .education {
+  padding: 1rem 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  body .container .main .experience, body .container .main .education {
+    padding: 1rem .2rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 601px) {
+  body .container .main .experience, body .container .main .education {
+    padding: 2rem .5rem;
+  }
+}
+
+body .container .main .experience .exp, body .container .main .experience .edu, body .container .main .education .exp, body .container .main .education .edu {
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  font-family: "PLay", sans-serif;
+}
+
+body .container .main .experience .work, body .container .main .experience .edu-comp, body .container .main .education .work, body .container .main .education .edu-comp {
+  border-bottom: 2px solid rgba(90, 90, 90, 0.2);
+}
+
+body .container .main .experience .work:last-child, body .container .main .experience .edu-comp:last-child, body .container .main .education .work:last-child, body .container .main .education .edu-comp:last-child {
+  border-bottom: none;
+}
+
+body .container .main .experience .work .inline, body .container .main .experience .edu-comp .inline, body .container .main .education .work .inline, body .container .main .education .edu-comp .inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  body .container .main .experience .work .inline, body .container .main .experience .edu-comp .inline, body .container .main .education .work .inline, body .container .main .education .edu-comp .inline {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: right;
+  }
+}
+
+body .container .main .experience .work .inline .company, body .container .main .experience .work .inline .uni, body .container .main .experience .edu-comp .inline .company, body .container .main .experience .edu-comp .inline .uni, body .container .main .education .work .inline .company, body .container .main .education .work .inline .uni, body .container .main .education .edu-comp .inline .company, body .container .main .education .edu-comp .inline .uni {
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  body .container .main .experience .work .inline .company, body .container .main .experience .work .inline .uni, body .container .main .experience .edu-comp .inline .company, body .container .main .experience .edu-comp .inline .uni, body .container .main .education .work .inline .company, body .container .main .education .work .inline .uni, body .container .main .education .edu-comp .inline .company, body .container .main .education .edu-comp .inline .uni {
+    margin: 1rem 0 0 0;
+  }
+}
+
+body .container .main .experience .work .inline .date, body .container .main .experience .edu-comp .inline .date, body .container .main .education .work .inline .date, body .container .main .education .edu-comp .inline .date {
+  color: rgba(255, 75, 75, 0.7);
+}
+
+@media (max-width: 600px) {
+  body .container .main .experience .work .inline .date, body .container .main .experience .edu-comp .inline .date, body .container .main .education .work .inline .date, body .container .main .education .edu-comp .inline .date {
+    margin: 0 0 2rem 0;
+  }
+}
+
+body .container .main .experience .work .title, body .container .main .experience .edu-comp .title, body .container .main .education .work .title, body .container .main .education .edu-comp .title {
+  margin: 0;
+}
+
+body .container .main .education {
+  background: url("../assets/img/cap.svg") no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=index.css.map */
